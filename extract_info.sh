@@ -11,5 +11,5 @@ echo "IP: ${ip_address}"
 
 
 # Update the json
-jq ".last_updated = '$(date)' | .ipaddress = '${ip_address}'" dashboard.json > tmp.json && mv tmp.json dashboard.json
+jq ".last_updated = \"$(date)\" | .ipaddress = \"${ip_address}\"" dashboard.json > tmp.json && mv tmp.json dashboard.json
 
