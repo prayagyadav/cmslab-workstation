@@ -1,5 +1,5 @@
 {
-  "last_updated": "26 July 2024",
+  "last_updated": "$(date)",
   "name": "CMSLAB Workstation",
-  "ipaddress": "188.184.98.228"
+  "ipaddress": "${ip_address}"
 }
